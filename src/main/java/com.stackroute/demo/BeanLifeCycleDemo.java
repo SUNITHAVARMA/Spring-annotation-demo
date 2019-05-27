@@ -14,5 +14,11 @@ public class BeanLifeCycleDemo implements InitializingBean, DisposableBean {
     public void destroy() throws Exception {
         System.out.println("bean destroyed");
     }
+    public void customInit(){
+        System.out.println("customInit method called");
+    }
+    public void customDestroy(){
+        System.out.println("customDestroy method called");
+    }
 
 }

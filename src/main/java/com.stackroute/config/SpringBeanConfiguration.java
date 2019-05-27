@@ -31,7 +31,7 @@ public class SpringBeanConfiguration {
     public ResourceLoaderAwareDemo getResourceLoader(){
     return new ResourceLoaderAwareDemo();
 }
-@Bean(name = "beanLifeCycle")
+@Bean(name = {"beanLifeCycle"},initMethod = "customInit",destroyMethod = "customDestroy")
     public BeanLifeCycleDemo getBeanLifeCycle(){
     return new BeanLifeCycleDemo();
 }
