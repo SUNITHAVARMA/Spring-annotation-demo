@@ -5,10 +5,12 @@ import com.stackroute.awareinterface.BeanFactoryAwareDemo;
 import com.stackroute.awareinterface.BeanNameAwareDemo;
 import com.stackroute.awareinterface.ResourceLoaderAwareDemo;
 import com.stackroute.demo.BeanLifeCycleDemo;
+import com.stackroute.demo.BeanPostProcessorDemo;
 import com.stackroute.domain.Actor;
 import com.stackroute.domain.Movie;
 import org.springframework.beans.factory.BeanNameAware;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
@@ -34,6 +36,13 @@ public class SpringBeanConfiguration {
 @Bean(name = {"beanLifeCycle"},initMethod = "customInit",destroyMethod = "customDestroy")
     public BeanLifeCycleDemo getBeanLifeCycle(){
     return new BeanLifeCycleDemo();
+}
+@Bean(name="beanPostProcessor")
+    public BeanPostProcessorDemo getBeanPostProcessor(){
+    BeanPostProcessorDemo beanPostProcessorDemo=new BeanPostProcessorDemo();
+
+            return beanPostProcessorDemo;
+
 }
 //    @Bean(name="movie")
 //
