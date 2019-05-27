@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a27908-03b5-4430-b32f-eed3737662b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.stackroute/demo/BeanLifeCycleDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com.stackroute/config/SpringBeanConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.stackroute/config/SpringBeanConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.stackroute/demo/BeanLifeCycleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.stackroute/demo/BeanLifeCycleDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/config/SpringBeanConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/config/SpringBeanConfiguration.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,13 +62,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.stackroute/demo/BeanLifeCycleDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="300">
+              <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.stackroute/config/SpringBeanConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+            <state relative-caret-position="118">
+              <caret line="33" column="88" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#547#548#0" expanded="true" />
@@ -195,8 +199,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com.stackroute/awareinterface/BeanNameAwareDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.stackroute/awareinterface/ResourceLoaderAwareDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.stackroute/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.stackroute/demo/BeanLifeCycleDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.stackroute/config/SpringBeanConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.stackroute/demo/BeanLifeCycleDemo.java" />
       </list>
     </option>
   </component>
@@ -370,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558959421958</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;added task5&quot;">
+      <created>1558960002666</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558960002666</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -443,7 +454,8 @@
     <MESSAGE value="&quot;added task2&quot;" />
     <MESSAGE value="&quot;added task3&quot;" />
     <MESSAGE value="&quot;added task4&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;added task4&quot;" />
+    <MESSAGE value="&quot;added task5&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;added task5&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/config/SpringBeanConfiguration.java">
@@ -570,20 +582,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.stackroute/demo/BeanLifeCycleDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.stackroute/config/SpringBeanConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+        <state relative-caret-position="118">
+          <caret line="33" column="88" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#547#548#0" expanded="true" />
@@ -596,6 +598,20 @@
             <element signature="e#1195#1196#0" expanded="true" />
             <element signature="e#1321#1322#0" expanded="true" />
             <element signature="e#1358#1359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.stackroute/demo/BeanLifeCycleDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
           </folding>
         </state>
       </provider>
